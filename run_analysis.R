@@ -78,6 +78,7 @@ for (x in activity){
 }
 
 write.table(df, "run_analysis_tidy_data.txt",sep=",",row.names = FALSE)
+                                
 
 
 
