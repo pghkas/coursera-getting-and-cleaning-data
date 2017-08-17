@@ -86,8 +86,7 @@ tBodyGyroJerkMag-mean() : Mean value of the magnitude of the body gyro jerk
 
 tBodyGyroJerkMag-std() : Standard deviation of the magnitude of the body gyro jerk
 
-
-
+.
 Frequency domain:
 
 fBodyAcc-mean()-X : Mean value of the body acceleration in the X direction
