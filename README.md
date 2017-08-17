@@ -11,12 +11,12 @@ The working directory from which the script needs to be run is /UCI HAR Dataset.
 
 In the script the dplyr package will be used. Therefor this package will be loaded at the start of the script.
 
-First the data in the test directory will be loaded.
+First the data in the 'test' directory will be loaded.
 the x data containing the measurements are assigned to x_test
 the y data containing the activities are assigned to y_test
 the subject ids are assigned to subject_test
 
-In the same way the data in the train directory will be loaded.
+In the same way the data in the 'train' directory will be loaded.
 the x data containing the measurements are assigned to x_train
 the y data containing the activities are assigned to y_train
 the subject ids are assigned to subject_train
@@ -43,7 +43,7 @@ So first there will be a loop through all the activities in the merged data set.
 For each activity there will then be a loop through all subjects.
 The average will than be taken of all the measurements of an activity for each subject and added to data frame, df.
 
-The resulting 
+The resulting dataframe will be written to the textfile 'run_analysis_tidy_data.txt'
 
 
 
